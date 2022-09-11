@@ -4,7 +4,7 @@
 
 #behind {
     background-color: #FFC100;
-    height: 1080px;
+    height: 1440px;
 }
 
 .header{
@@ -14,16 +14,29 @@
     
     margin-left: 2%;
     margin-bottom: 1%;
+    margin-top: 100px;
     
     font-weight: 600;
 
 }
 
-.headercontent {
-    margin-left: 0.5%;
-    color: black;
+#headerrow {
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+.header {
+    font-weight: 600;
+}
+
+#certificaterow {
+    margin-bottom: 1%;
+}
+
+.certificate {
+    width: 100%;
 }
 
 #levelbar {
-    width: 30%;
+    width: 100%;
 }
