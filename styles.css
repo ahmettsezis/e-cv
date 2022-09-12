@@ -27,6 +27,7 @@
 
 .PP {
     width: 100%;
+    min-width: 138px;
 }
 
 
