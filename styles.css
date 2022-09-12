@@ -4,11 +4,16 @@
 
 #behind {
     background-color: #FFC100;
+    
+    min-width: 720px;
+    max-width: 1280px;
+    
     height: 2160px;
 }
 
 #myinfo{
-padding-left: 100px;
+padding-left: 2.2%;
+padding-right: 2.2%;
 }
 
 .header{
@@ -23,7 +28,7 @@ padding-left: 100px;
 }
 
 #headerrow {
-    margin-bottom: 2%;
+    margin-bottom: 1.5%;
     margin-top: 2%;
     margin-left: 2%;
 }
