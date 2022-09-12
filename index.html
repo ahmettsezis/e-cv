@@ -5,6 +5,7 @@
         <title>Title</title>
         <link rel="stylesheet" href="styles.css" />
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://kit.fontawesome.com/78e0913aa0.js" crossorigin="anonymous"></script>
 
     </head> 
     <body>
@@ -15,18 +16,18 @@
         <div class="date">09.09.2022</div>
         </center>
             
-        <div id="headerrow" class="row">
-            <div class="header">Kişisel Bilgiler</div>
-            <p class="headercontent">deneme</p>
+        <div id="headerrow" class="row"><div class="header">Kişisel Bilgiler</div></div>
+        <div id="myinfo" class="row align-items-center">
+                <div class="col"><i class="fa-solid fa-location-dot"></i> Merkez / DÜZCE </div>
+                <div class="col"><i class="fa-sharp fa-solid fa-envelope"></i> ahmettsezis@gmail.com </div>
+                <div class="col"><i class="fa-solid fa-phone"></i> 5435431242 </div>
         </div>
             
         <div id="headerrow" class="row">
             <div class="header">Eğitim Bilgileri</div>
-            <p class="headercontent">
             • Manisa Ahmet Tütüncüoğlu İlköğretim Okulu <br>
             • Manisa Dündar Çiloğlu Anadolu Lisesi (2012-2016) <br>
             • Düzce Üniversitesi / Bilgisayar Mühendisliği (2017-2022)
-            </p>
         </div>
             
         <div id="headerrow" class="row">
@@ -83,12 +84,28 @@
             
         <div id="headerrow" class="row">
             <div class="header">Projeler</div>
-            <p class="headercontent">
-            • AWS Altyapısında Telegram Botu<br>
-            • WINGIE ENUYGUN DevOps Bootcamp Projesi <br>
+            <span class="projectheader">
+            • AWS Altyapısında Telegram Botu
+            </span><span class="projectcontent">
+            Kullanıcıya sorular sorarak belirlediği kriterlere uygun masaüstü bilgisayarın parçalarını gösteren ve HTML görüntüsünü PDF uzantılı çıktısını veren web sitesi projesi.
+            </span>
+            <span class="projectheader">  
+            • WINGIE ENUYGUN DevOps Bootcamp Projesi
+            </span><span class="projectcontent">
+            Google Cloud’da Terraform ile Kubernetes Cluster kurulumu. Kubernetes üzerine Wordpress ve MySQL kurulumu. 
+            Jenkins kullanarak yeni Wordpress’ler kurdurulması.
+            Detaylar: https://github.com/ahmettsezis/enuygunbootcampproject/blob/main/ProjectDocumentation.pdf
+            </span>
+            <span class="projectheader">
             • http://bilgisayarsec.site/ (yayında değil)
+            </span><span class="projectcontent">
+            Kullanıcıya sorular sorarak belirlediği kriterlere uygun masaüstü bilgisayarın parçalarını gösteren ve HTML görüntüsünü PDF uzantılı çıktısını veren web sitesi projesi.
+            </span>
+            <span class="projectheader">    
             • MQTT Tartışma Platformu
-            </p>
+            </span><span class="projectcontent">
+            Python ve Tkinter arayüzü ile kullanıcıya sunulan web forumu benzeri, fakat iletişimi MQTT protokolü ile sağlayan PostgreSQL veritabanlı tamamen localhostta çalışan tartışma platformu projesi.
+            </span>
         </div>
             
         <div id="headerrow" class="row">

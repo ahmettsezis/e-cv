@@ -4,7 +4,11 @@
 
 #behind {
     background-color: #FFC100;
-    height: 1440px;
+    height: 2160px;
+}
+
+#myinfo{
+padding-left: 100px;
 }
 
 .header{
@@ -12,29 +16,41 @@
     background: rgb(255,255,255);
     background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 25%, rgba(255,255,255,0) 50%);
     
-    margin-left: 2%;
     margin-bottom: 1%;
     margin-top: 100px;
     
-    font-weight: 600;
-
+    font-weight: 700;
 }
 
 #headerrow {
     margin-bottom: 2%;
     margin-top: 2%;
+    margin-left: 2%;
 }
 
-.header {
-    font-weight: 600;
+.headercontent {
+    margin-left: 1.25%;
 }
 
 #certificaterow {
     margin-bottom: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
 }
 
 .certificate {
     width: 100%;
+}
+
+.projectheader {
+    font-weight: 600;
+    margin-bottom: 1%;
+    
+}
+
+.projectcontent {
+    font-weight: 400;
+    margin-bottom: 3%;
 }
 
 #levelbar {
